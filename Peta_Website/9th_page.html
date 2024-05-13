@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="9th_page.css" />
+    <link rel="stylesheet" type="text/jsdelivr" href="9th_page.js">
+    <title>History</title>
+  </head>
+
+  <!-- Video Source -->
+  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+  <section class="showcase">
+    <header>
+      <h2 class="logo">History</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="donma.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>History of</h2> 
+      <h3>San Francisco High School</h3>
+      <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;San Francisco High School opened its doors on June 9, 1954, in the heart of a small but thriving city. It began as an annex of Quezon City High School, with 90 first-year pupils and 6 teaching members. Classes were
+held in the decrepit Pizano building on Morato Street.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;San Francisco High School's future did not appear bright at first, but thanks to the administrators' fortitude and drive, as well as the presidents of the Parent-Teacher Association, they saw the fledgling school blossom into what it is today.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On September 30, 1958, San Francisco Annex obtained independence from Quezon City High School. In the same year, Pablo P. Reyes, the Superintendent of City Schools, approved the first graduation ceremony. To accommodate its rising population, San Francisco High School established an Annex at Judge Juan Luna. However, in 1961, the late President Carlos P. Garcia issued a Presidential proclamation granting the SFHS annex a 5,245 square meter site.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enrollment had risen from 90 to 5,334 in 1970, and the original three sections of 90 pupils with 6 teachers had been expanded to 144 sections with 263 teachers.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In November of that year, the Q.C. Council adopted Resolution No. 10590 s 75, which changed the school's name from San Francisco High School to Don Mariano Marcos High School, and was confirmed by Division Memorandum No. 32 dated October 23, 1975. However, the school's original name was adopted in October 1986, and it is still known as San Francisco High School today.
+</p>
+      
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="1st_page.html">Home</a></li>
+			<li><a href="3rd_page.html">Buildings and Map</a></li>
+			<li><a href="11.html">Login</a></li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+  	 const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</html>

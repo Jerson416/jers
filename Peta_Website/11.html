@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="1.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		<form action="">
+			<h1>Login</h1>
+
+			<div class="input-box">
+				<input type="text" placeholder="Email or Username" required>
+				<i class='bx bxs-user'></i>
+			</div>
+
+			<div class="input-box">
+				<input type="Password" placeholder="Password"required>
+				<i class='bx bxs-lock-alt'></i>
+			</div>
+
+			<div class="remember-forgot">
+				<label><input type="checkbox">Remember me</label>
+				<br>
+			<a href="#">Forgot Password</a>
+			</div>
+
+			<button type="submit" class="btn">Login</button>
+
+			<div class="register-link">
+				<p>Don't have an account?<a href="register.html">&nbsp;Create Account</a></p>
+
+			</div>
+		</form>
+	</div>
+
+	<div id="sideNav">
+		<nav>
+		<ul>
+			<li><a href="1st_page.html">Home</a></li>
+			<li><a href="3rd_page.html">Buildings and Map</a></li>
+			<li><a href="11.html">Login</a></li>
+		</ul>
+		</nav>
+		
+	</div>
+	</div>
+	<div id="menuBtn">
+		<img src="btn.jpg" id="menu">
+	</div>
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px"
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "close.jpg";
+	}
+	else{
+		sideNav.style.right = "-250px"
+		menu.src = "btn.jpg";
+	}
+}
+</script>
+
+</body>

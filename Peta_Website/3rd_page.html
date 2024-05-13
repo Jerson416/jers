@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Buildings and Map</title>
+	<link rel="stylesheet" type="text/css" href="3rd_page.css">
+</head>
+<body bgcolor="black">
+	<section id="sevice">
+		<div class="title-text">
+			<h1>SFHS Buildings and Map</h1>
+		</div>
+		<div class="service-box">
+			
+			<div class="single-service">
+				<img src="deped a.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>DepEd A Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="deped bc.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>DepEd BC Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="deped d.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>DepEd D Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="deped e.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>DepEd E Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="hb building.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>HB Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="new sb.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>New SB Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="old sb.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>Old SB Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="pimentel.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>Pimentel Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="kamagong.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>kamagong Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="heritage.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>Heritage Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="dao.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>DAO Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="narra.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>Narra Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="pagcor.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>Pagcor Building</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="principal.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>Principal's Office</h3>
+				</div>
+			</div>
+			<div class="single-service">
+				<img src="map.jpg">
+				<div class="overlay"></div>
+				<div class="service-desc">
+					<h3>San Francisco High School Map</h3>
+				</div>
+			</div>
+
+
+
+
+			</div>
+		</div>
+
+	</section>
+
+	<div id="sideNav">
+		<nav>
+		<ul>
+			<li><a href="1st_page.html">Home</a></li>
+			<li><a href="3rd_page.html">Buildings and Map</a></li>
+			<li><a href="11.html">Login</a></li>
+		</ul>
+		</nav>
+		
+	</div>
+	</div>
+	<div id="menuBtn">
+		<img src="btn.jpg" id="menu">
+	</div>
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px"
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "close.jpg";
+	}
+	else{
+		sideNav.style.right = "-250px"
+		menu.src = "btn.jpg";
+	}
+}
+</script>
+
+</body>
+</html>
